@@ -7,6 +7,8 @@ void setup() {
     DigiKeyboard.sendKeyStroke(0);
     // Win + R
     DigiKeyboard.sendKeyStroke(KEY_R , MOD_GUI_LEFT);
+    // Espera 500 milisegundos
+    DigiKeyboard.delay(500);
     // Escreve
     DigiKeyboard.println("notepad");
     // Enter
